@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #767dd8;
+    color: #fff;
+}
+header {
+    background-color: #66e4e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+header img {
+    height: 60px;
+}
+nav a {
+    color: #000000;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    color: #6989f3;
+    padding: 20px;
+}
+.section-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.services, .team, .specialists {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 10px;
+}
+.card {
+    background-color: #a1d890;
+    color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.footer {
+    background-color: #e2f1d0;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.footer h3 {
+    color: #000000;
+}
+.footer .social-icons img {
+    width: 32px;
+    margin: 0 5px;
+}
+.copyright {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
